@@ -7,4 +7,5 @@ val playVersion = scala.util.Properties.envOrElse("PLAY_VERSION", "2.5.14")
 // The Play plugin
 addSbtPlugin("com.typesafe.play" % "sbt-plugin" % playVersion)
 
-addSbtPlugin("com.artima.supersafe" % "sbtplugin" % "1.1.2")
+addSbtPlugin("com.artima.supersafe" % "sbtplugin" % "1.1.3")
+
